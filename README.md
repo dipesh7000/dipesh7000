@@ -1,195 +1,157 @@
-<!-- START OF ANIMATED GITHUB README -->
 <div align="center">
-  <!-- 1. Animated Fluid Background -->
-  <svg width="100%" height="250px" viewBox="0 0 100 25" preserveAspectRatio="none" style="background:#0d1117;">
-    <defs>
-      <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#2196f3">
-          <animate attributeName="stop-color" values="#2196f3;#e91e63;#2196f3" dur="12s" repeatCount="indefinite" />
-        </stop>
-        <stop offset="100%" stop-color="#e91e63">
-          <animate attributeName="stop-color" values="#e91e63;#ffc107;#e91e63" dur="12s" repeatCount="indefinite" />
-        </stop>
-      </linearGradient>
-    </defs>
-    <path d="M0,10 Q25,15 50,10 T100,10 L100,25 L0,25 Z" fill="url(#bgGradient)">
-      <animate attributeName="d" dur="8s" repeatCount="indefinite"
-        values="M0,10 Q25,15 50,10 T100,10 L100,25 L0,25 Z; M0,10 Q25,5 50,10 T100,10 L100,25 L0,25 Z; M0,10 Q25,15 50,10 T100,10 L100,25 L0,25 Z" />
-    </path>
-  </svg>
+  
+<!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=dipesh7002&color=0e75b6&style=flat" alt="Profile views" />
 
-  <!-- 2. Morphing Blob Avatar Container -->
-  <svg width="200" height="200" viewBox="0 0 200 200" style="margin-top:-100px;">
-    <defs>
-      <clipPath id="blobClip">
-        <path id="blobPath" d="M40,60 C20,90 60,130 100,120 C140,110 180,70 160,50 C140,30 100,20 60,30 Z">
-          <animate attributeName="d" dur="7s" repeatCount="indefinite"
-            values="M40,60 C20,90 60,130 100,120 C140,110 180,70 160,50 C140,30 100,20 60,30 Z;
-                    M50,50 C30,80 80,140 110,120 C140,100 180,60 150,40 C130,20 90,30 50,50 Z;
-                    M40,60 C20,90 60,130 100,120 C140,110 180,70 160,50 C140,30 100,20 60,30 Z" />
-        </path>
-      </clipPath>
-    </defs>
-    <image xlink:href="https://avatars.githubusercontent.com/u/your-avatar-id?v=4" width="200" height="200" clip-path="url(#blobClip)" />
-  </svg>
+<!-- Animated Header -->
+<h1>
+  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
+  Hi there, I'm <strong>Dipesh Regmi</strong>
+</h1>
 
-  <!-- 3. Neon Outline Text with Glitch Effect -->
-  <div style="font-family:'Segoe UI',sans-serif; position:relative; display:inline-block;">
-    <h1 style="font-size:48px; color:#fff; text-transform:uppercase;">
-      <span style="position:absolute; top:0; left:0; right:0; bottom:0; mix-blend-mode:overlay;">
-        <span style="animation: glitch1 3s infinite; display:inline-block;">Dipesh Regmi</span>
-      </span>
-      <span style="animation: neonGlow 1.5s ease-in-out infinite;">Dipesh Regmi</span>
-    </h1>
-  </div>
+<!-- Typing Animation Style Subtitle -->
+<h3>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&lines=Computer+Engineer+%7C+Backend+Developer;Passionate+about+AI+%26+Machine+Learning;Building+Solutions+with+Python+%26+Django;Always+learning%2C+always+growing" alt="Typing SVG" />
+</h3>
 
-  <!-- 4. Subtitle Waves Animation -->
-  <p style="font-size:18px; color:#c9d1d9; animation: waveText 4s ease-in-out infinite;">
-    _A passionate Computer Engineer skilled in scripting, automation, and backend development._
-  </p>
 </div>
 
 ---
 
-## 🔭 Current Project
+## 🚀 What I'm Up To
 
-<div align="center" style="margin:40px 0;">
-  <div style="display:inline-block; position:relative;">
-    <img src="https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif" width="80"
-         style="transform-origin:center; animation: spinSlow 10s linear infinite;" />
-    <span style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:20px; color:#fff;">
-      <a href="https://github.com/dipesh7002/AHelp" style="color:#ffc107; text-decoration:none;">
-        AHelp
-      </a>
-    </span>
-  </div>
-  <p style="margin-top:10px; color:#c9d1d9; font-size:16px; animation: fadeIn 2s ease both;">
-    Matching thesis/dissertation students with expert service providers.
-  </p>
-</div>
+<table>
+<tr>
+<td width="50%">
 
----
+### 🔭 **Current Focus**
+🎯 **[AHelp](https://github.com/dipesh7002/AHelp)**  
+*Connecting service providers with students for thesis & dissertation support*
 
-## 🌱 Learning Journey
+**Tech Stack:** `Django` `PostgreSQL` `RESTful APIs`
 
-<div align="center" style="position:relative; height:120px;">
-  <!-- Floating Icons -->
-  <img src="https://media.giphy.com/media/26BRqU0x64fFGLCMU/giphy.gif" width="60"
-       style="position:absolute; top:20px; left:20%; animation: float 5s ease-in-out infinite;" />
-  <img src="https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif" width="60"
-       style="position:absolute; top:10px; left:45%; animation: wobble 4s infinite;" />
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="60"
-       style="position:absolute; top:20px; left:70%; animation: float 6s ease-in-out infinite;" />
-</div>
-<p align="center" style="font-size:16px; color:#c9d1d9; animation: fadeIn 3s ease both;">
-  — LoRA Fine-tuning • Prompt Engineering • Hugging Face Model Magic —
-</p>
+</td>
+<td width="50%">
+
+### 🌱 **Currently Learning**
+🤖 **Fine-tuning Large Language Models**
+- LoRA (Low-Rank Adaptation)
+- Advanced Prompt Engineering
+- Hugging Face Transformers
+- Model Optimization Techniques
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛠️ Languages & Tools
+## 🌐 Let's Connect
 
 <div align="center">
-  <table>
-    <!-- Row 1 -->
-    <tr>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="60"
-             style="animation: pulseColor 4s infinite;"/>
-        <p style="color:#fff;">Python</p>
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="60"
-             style="animation: spinSlow 8s linear infinite;"/>
-        <p style="color:#fff;">JavaScript</p>
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="60"
-             style="animation: wobble 5s infinite;"/>
-        <p style="color:#fff;">C++</p>
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="60"
-             style="animation: fadeIn 3s ease both;"/>
-        <p style="color:#fff;">HTML5</p>
-      </td>
-    </tr>
-    <!-- Row 2 -->
-    <tr>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="60"
-             style="animation: rotateScale 6s infinite;"/>
-        <p style="color:#fff;">CSS3</p>
-      </td>
-      <td align="center">
-        <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" width="60"
-             style="animation: neonGlow 2s ease-in-out infinite;"/>
-        <p style="color:#fff;">Kotlin</p>
-      </td>
-      <td align="center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="60"
-             style="animation: pulseColor 5s infinite;"/>
-        <p style="color:#fff;">MATLAB</p>
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="60"
-             style="animation: spinSlow 9s linear infinite;"/>
-        <p style="color:#fff;">Linux</p>
-      </td>
-    </tr>
-  </table>
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dipesh-regmi-941bab32b)
+[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/user1063ha)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:077bct027.dipesh@pcampus.edu.np)
+
 </div>
 
 ---
 
-## 💻 Tools & Frameworks
+## 💻 Tech Arsenal
 
-<div align="center" style="display:flex; justify-content:center; gap:40px; margin-top:20px;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" width="60"
-       style="animation: fadeIn 4s ease both;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg" width="60"
-       style="animation: pulseColor 6s infinite;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="60"
-       style="animation: wobble 6s infinite;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="60"
-       style="animation: spinSlow 7s linear infinite;"/>
+### 🎯 **Programming Languages**
+<div align="center">
+
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+</div>
+
+### 🎨 **Web Technologies**
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+
+</div>
+
+### 🗄️ **Databases**
+<div align="center">
+
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![CouchDB](https://img.shields.io/badge/CouchDB-E42528?style=for-the-badge&logo=apache-couchdb&logoColor=white)
+
+</div>
+
+### 🛠️ **Tools & Platforms**
+<div align="center">
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Elasticsearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+
 </div>
 
 ---
 
-## 📫 Get in Touch
+## 📊 GitHub Analytics
 
-<div align="center" style="animation: popIn 2s ease both; margin-top:30px;">
-  <p style="font-size:18px; color:#fff;">
-    ✉️ <code>077bct027.dipesh@pcampus.edu.np</code> &nbsp; | &nbsp;
-    🔗 <a href="https://linkedin.com/in/dipesh-regmi-941bab32b" style="color:#2196f3;">LinkedIn</a> &nbsp; | &nbsp;
-    🔗 <a href="https://leetcode.com/user1063ha" style="color:#2196f3;">LeetCode</a>
-  </p>
+<div align="center">
+  
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=dipesh7002&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dipesh7002&layout=compact&langs_count=7&theme=tokyonight"/>
+
+</div>
+
+<div align="center">
+  
+[![GitHub Streak](https://streak-stats.demolab.com/?user=dipesh7002&theme=tokyonight)](https://git.io/streak-stats)
+
 </div>
 
 ---
 
-## 🎉 Thanks for Visiting!
+## 🏆 GitHub Trophies
+<div align="center">
+  
+[![trophy](https://github-profile-trophy.vercel.app/?username=dipesh7002&theme=onedark&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
-<p align="center" style="margin-top:40px;">
-  <img src="https://media.giphy.com/media/3oz8xLu4wEnWdJDORG/giphy.gif" width="160"
-       style="animation: popIn 1s ease both;"/>
-</p>
+</div>
 
-<!-- EMBEDDED ANIMATION STYLES -->
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
-  <style>
-    @keyframes glitch1 { 0%{transform:translate(0)}20%{transform:translate(-3px,2px)}40%{transform:translate(-5px,-1px)}60%{transform:translate(3px,1px)}80%{transform:translate(2px,-2px)}100%{transform:translate(0)} }
-    @keyframes neonGlow { 0%{text-shadow:0 0 5px #e91e63,0 0 10px #e91e63,0 0 20px #e91e63}50%{text-shadow:0 0 10px #ffc107,0 0 20px #ffc107,0 0 30px #ffc107}100%{text-shadow:0 0 5px #2196f3,0 0 10px #2196f3,0 0 20px #2196f3} }
-    @keyframes waveText { 0%,100%{filter:hue-rotate(0deg)}50%{filter:hue-rotate(360deg)} }
-    @keyframes float { 0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)} }
-    @keyframes spinSlow { from{transform:rotate(0deg)}to{transform:rotate(360deg)} }
-    @keyframes fadeIn { from{opacity:0}to{opacity:1} }
-    @keyframes wobble { 0%,100%{transform:rotate(0deg)}15%{transform:rotate(-3deg)}30%{transform:rotate(3deg)}45%{transform:rotate(-2deg)}60%{transform:rotate(2deg)}75%{transform:rotate(-1deg)} }
-    @keyframes rotateScale { 0%{transform:scale(1)}50%{transform:scale(1.2)}100%{transform:scale(1)} }
-    @keyframes pulseColor { 0%,100%{filter:brightness(1); }50%{filter:brightness(2);} }
-    @keyframes popIn { 0%{transform:scale(0)}100%{transform:scale(1)} }
-  </style>
-</svg>
+---
 
-<!-- END OF ANIMATED README -->
+## 💡 Fun Fact
+```python
+class DipeshRegmi:
+    def __init__(self):
+        self.name = "Dipesh Regmi"
+        self.role = "Computer Engineer"
+        self.location = "Nepal"
+        self.interests = ["AI/ML", "Backend Development", "Problem Solving"]
+        self.currently_learning = ["LLM Fine-tuning", "Advanced Python", "System Design"]
+    
+    def say_hi(self):
+        print("Thanks for visiting my profile! Let's build something amazing together 🚀")
+
+me = DipeshRegmi()
+me.say_hi()
+```
+
+---
+
+<div align="center">
+  
+### ⭐ *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+
+**Thanks for stopping by! Feel free to explore my repositories and don't hesitate to reach out!** 😊
+
+</div>
