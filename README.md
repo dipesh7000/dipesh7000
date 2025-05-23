@@ -1,48 +1,191 @@
+```ascii
+╔══════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                                  ║
+║    ██████╗ ██╗██████╗ ███████╗███████╗██╗  ██╗    ██████╗ ███████╗ ██████╗ ███╗   ███╗██╗       ║
+║    ██╔══██╗██║██╔══██╗██╔════╝██╔════╝██║  ██║    ██╔══██╗██╔════╝██╔════╝ ████╗ ████║██║       ║
+║    ██║  ██║██║██████╔╝█████╗  ███████╗███████║    ██████╔╝█████╗  ██║  ███╗██╔████╔██║██║       ║
+║    ██║  ██║██║██╔═══╝ ██╔══╝  ╚════██║██╔══██║    ██╔══██╗██╔══╝  ██║   ██║██║╚██╔╝██║██║       ║
+║    ██████╔╝██║██║     ███████╗███████║██║  ██║    ██║  ██║███████╗╚██████╔╝██║ ╚═╝ ██║██║       ║
+║    ╚═════╝ ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝       ║
+║                                                                                                  ║
+║                              🌐 Computer Engineer from Nepal 🇳🇵                              ║
+║                                                                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
+```
+
 <div align="center">
-  
-<img src="https://komarev.com/ghpvc/?username=dipesh7002&color=blueviolet&style=for-the-badge&label=Profile+Views" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=dipesh7002&color=dc143c&style=plastic&label=VISITORS" alt="Profile Views"/>
+</div>
+
+<br>
+
+```
+     ┌─────────────────────────────────────────────────────────────────────┐
+     │                    🧬 GENETIC CODE BREAKDOWN                        │
+     ├─────────────────────────────────────────────────────────────────────┤
+     │                                                                     │
+     │  Species: Homo Codius                                              │
+     │  Habitat: Terminal Environments, IDE Forests                       │
+     │  Diet: Coffee, Complex Algorithms, Stack Overflow                  │
+     │  Behavior: Nocturnal Coding Patterns                               │
+     │                                                                     │
+     │  Primary Mutations:                                                 │
+     │  ├─ Backend Development Gene (Dominant)                             │
+     │  ├─ AI Curiosity Chromosome (Highly Active)                        │
+     │  ├─ Automation Instinct (Evolved)                                   │
+     │  └─ Problem-Solving Enzyme (Overproduced)                          │
+     │                                                                     │
+     │  Current Evolution: LLM Fine-tuning Adaptation                     │
+     │  Status: Actively Mutating                                          │
+     │                                                                     │
+     └─────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" height="320" alt="Your Requested GIF"/>
+</div>
+
+---
+
+## 🎯 **CURRENT MISSION STATUS**
+
+```
+OPERATION: AHELP
+├─ Classification: TOP SECRET
+├─ Mission Type: Academic Intelligence Network
+├─ Objective: Connect knowledge seekers with academic operatives
+├─ Progress: IN DEVELOPMENT
+├─ Threat Level: MINIMAL
+└─ Success Probability: HIGH
+
+AGENT TRAINING MODULES:
+├─ LLM Interrogation Techniques (LoRA)
+├─ Prompt Engineering Psychology  
+├─ Hugging Face Infiltration
+└─ Neural Network Manipulation
+```
+
+---
+
+## 🧪 **LABORATORY EQUIPMENT**
+
+<div align="center">
+
+### 🔬 **PRIMARY SPECIMENS**
+```
+C/C++ ████████████████████████ 95%    Python ██████████████████████ 90%
+JavaScript ███████████████████ 85%    Kotlin ████████████████ 70%
+```
+
+### ⚗️ **RESEARCH TOOLS**
+```
+Django Framework    ████████████████████████ 100%
+PostgreSQL Cultures ██████████████████████   95%
+MongoDB Colonies    ███████████████████      85%
+CouchDB Specimens   ████████████████         70%
+MySQL Samples       ██████████████████████   90%
+```
+
+### 🛠️ **APPARATUS**
+```
+Git Version Control      ████████████████████████ 100%
+Linux Operating System  ██████████████████████   95%
+Elasticsearch Engine     ████████████████         70%
+MATLAB Computational     ███████████████████      85%
+Pandas Data Processing   ██████████████████████   90%
+```
 
 </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="600" height="400" alt="Coding Animation"/>
-</div>
+---
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=35&center=true&vCenter=true&width=700&height=70&duration=4000&pause=800&color=E94560&background=00000000&multiline=false&lines=◦+Building+Tomorrow's+Solutions+Today+◦;◦+Dipesh+Regmi+|+Computer+Engineer+◦;◦+AI+Enthusiast+%26+Backend+Architect+◦" />
-</h1>
+## 🕸️ **WEB OF CONNECTIONS**
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="500" height="4" alt="Animated Line"/>
+
+```
+                    🌐 DIGITAL PRESENCE NETWORK
+                           
+                              [YOU]
+                               |
+                  ┌────────────┼────────────┐
+                  │            │            │
+            [LINKEDIN]    [LEETCODE]    [EMAIL]
+                  │            │            │
+        Professional   Algorithmic    Direct
+         Networking     Combat       Communication
+                  │            │            │
+            Business     Problem      Personal
+             Intel      Solving       Queries
+                       Training
+```
+
+<a href="https://linkedin.com/in/dipesh-regmi-941bab32b" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-FF6B6B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://leetcode.com/user1063ha" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-4ECDC4?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
+</a>
+<a href="mailto:077bct027.dipesh@pcampus.edu.np">
+  <img src="https://img.shields.io/badge/Email-45B7D1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+
 </div>
 
-## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="35" height="35"/> Who Am I?
+---
+
+## 🎭 **ALTERNATE PERSONAS**
 
 <div align="center">
 
 <table>
 <tr>
-<td width="50%" align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Animated Developer" width="300"/>
+<td align="center" width="25%">
+
+```
+    🤖
+  DIPESH.AI
+```
+**THE LEARNER**
+*Fine-tuning models*
+*Prompt engineering*
+*Neural networks*
+
 </td>
-<td width="50%">
+<td align="center" width="25%">
 
-### 🧠 **Neural Network of Interests**
 ```
-    🤖 AI & Machine Learning
-         ↓
-    🔧 Backend Development
-         ↓  
-    📚 Continuous Learning
-         ↓
-    🚀 Innovation & Automation
+    ⚙️
+  DIPESH.SYS
 ```
+**THE BUILDER**
+*Backend architecture*
+*System design*
+*API development*
 
-### 🎯 **Mission Control**
-- **Current Project:** [**AHelp**](https://github.com/dipesh7002/AHelp) - Revolutionizing academic assistance through intelligent matching
-- **Learning Trajectory:** LLM Fine-tuning, LoRA, Advanced Prompt Engineering  
-- **Home Base:** Nepal 🇳🇵
-- **Superpower:** Transforming complex problems into elegant solutions
+</td>
+<td align="center" width="25%">
+
+```
+    🔍
+  DIPESH.DB
+```
+**THE ANALYZER**
+*Data modeling*
+*Query optimization*
+*Database design*
+
+</td>
+<td align="center" width="25%">
+
+```
+    🚀
+  DIPESH.DEV
+```
+**THE INNOVATOR**
+*Problem solving*
+*Automation*
+*Creative solutions*
 
 </td>
 </tr>
@@ -50,115 +193,183 @@
 
 </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="500" height="4" alt="Animated Line"/>
-</div>
+---
 
-## <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="35" height="35"/> Digital Presence
+## 📊 **PERFORMANCE METRICS**
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://linkedin.com/in/dipesh-regmi-941bab32b)](https://linkedin.com/in/dipesh-regmi-941bab32b)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&link=https://leetcode.com/user1063ha)](https://leetcode.com/user1063ha)
-[![Email](https://img.shields.io/badge/Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:077bct027.dipesh@pcampus.edu.np)](mailto:077bct027.dipesh@pcampus.edu.np)
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        SKILL PROFICIENCY RADAR                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│              Backend Development    ████████████████████ 95%               │
+│              Database Management    ██████████████████   85%               │
+│              Problem Solving        ████████████████████ 96%               │
+│              System Architecture    ████████████████     75%               │
+│              AI/ML Understanding    ███████████████      70%               │
+│              Code Optimization      ██████████████████   80%               │
+│              API Design             ████████████████████ 90%               │
+│              Linux Administration   ████████████████     75%               │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-</div>
+---
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="500" height="4" alt="Animated Line"/>
-</div>
-
-## <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="35" height="35"/> Technology Arsenal
-
-<div align="center">
-
-### 🚀 **Programming Universe**
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
-
-### 🌐 **Web Ecosystem**
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-
-### 🗄️ **Data Kingdoms**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![CouchDB](https://img.shields.io/badge/CouchDB-E42528?style=for-the-badge&logo=couchdb&logoColor=white)
-
-### 🛠️ **Power Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-</div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="500" height="4" alt="Animated Line"/>
-</div>
-
-## <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="35" height="35"/> Featured Innovation
+## 🏆 **ACHIEVEMENT UNLOCKED**
 
 <div align="center">
 
-### 🎯 **AHelp - Academic Assistance Revolution**
-
-<img src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2848-41c2-998f-c5d2322d73a0.gif" width="400" alt="Project Animation"/>
-
-**Bridging the gap between knowledge seekers and academic experts**
-
-🧠 **Intelligence-Driven Matching** • 🔗 **Seamless Connections** • 📚 **Academic Excellence**
-
-[**🚀 Explore AHelp →**](https://github.com/dipesh7002/AHelp)
+```
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║    🎯 MISSION: AHELP - ACADEMIC INTELLIGENCE NETWORK                         ║
+║                                                                               ║
+║    📋 BRIEFING:                                                               ║
+║    Revolutionary platform connecting students with academic specialists        ║
+║    through intelligent matching algorithms and seamless communication         ║
+║                                                                               ║
+║    🔧 TECHNOLOGIES DEPLOYED:                                                   ║
+║    ├─ Advanced Matching Algorithms                                            ║
+║    ├─ Real-time Communication Systems                                         ║
+║    ├─ Secure User Authentication                                              ║
+║    └─ Intelligent Recommendation Engine                                       ║
+║                                                                               ║
+║    📈 IMPACT:                                                                  ║
+║    Bridging the knowledge gap in academic assistance                          ║
+║                                                                               ║
+║    🔗 ACCESS POINT: github.com/dipesh7002/AHelp                              ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+```
 
 </div>
+
+---
+
+## 🎨 **CREATIVE WORKSPACE**
+
+```
+                    📁 /home/dipesh/projects/
+                    ├── 🔥 ahelp/
+                    │   ├── backend/
+                    │   │   ├── django_app/
+                    │   │   ├── api/
+                    │   │   └── database/
+                    │   ├── frontend/
+                    │   └── algorithms/
+                    ├── 🧠 ai_experiments/
+                    │   ├── llm_finetuning/
+                    │   ├── prompt_engineering/
+                    │   └── model_training/
+                    ├── 🛠️ automation_scripts/
+                    │   ├── data_processing/
+                    │   └── system_monitoring/
+                    └── 📚 learning_sandbox/
+                        ├── tutorials/
+                        ├── experiments/
+                        └── notes/
+```
+
+---
+
+## 💭 **THOUGHT PROCESSES**
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="500" height="4" alt="Animated Line"/>
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        NEURAL ACTIVITY MONITOR                         │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  💡 Current Thoughts:                                                   │
+│  ├─ How can we make LLMs more efficient?                               │
+│  ├─ What's the optimal architecture for AHelp?                         │
+│  ├─ How to improve database query performance?                          │
+│  └─ Which automation can save time today?                              │
+│                                                                         │
+│  🔄 Background Processes:                                               │
+│  ├─ Monitoring tech trends                                              │
+│  ├─ Optimizing existing code                                            │
+│  ├─ Planning next learning modules                                      │
+│  └─ Dreaming in algorithms                                              │
+│                                                                         │
+│  ⚡ Active Synapses:                                                     │
+│  Django ██████████████████████████████ 100%                           │
+│  Python ████████████████████████████   95%                            │
+│  AI/ML  ███████████████████████        85%                            │
+│  PostgreSQL ████████████████████████   90%                            │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
 </div>
 
-## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="35" height="35"/> Current Trajectory
+---
+
+## 🌟 **SYSTEM STATUS**
+
+```
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                            DIPESH REGMI v2024.5                             │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  🔋 Energy Level:        ████████████████████████████████ 95%               │
+│  🧠 Learning Capacity:   ████████████████████████████████ 100%              │
+│  💻 Coding Efficiency:   ██████████████████████████████   88%               │
+│  🚀 Innovation Drive:    ████████████████████████████████ 99%               │
+│  🤝 Collaboration Mode:  ████████████████████████████████ 100%              │
+│                                                                              │
+│  📊 Recent Activities:                                                       │
+│  ├─ [2024-05-20] AHelp backend optimization                                 │
+│  ├─ [2024-05-18] LoRA fine-tuning experiments                               │
+│  ├─ [2024-05-15] Database performance tuning                                │
+│  └─ [2024-05-12] Prompt engineering research                                │
+│                                                                              │
+│  🎯 Next Objectives:                                                         │
+│  ├─ [ ] Complete AHelp MVP                                                   │
+│  ├─ [ ] Master advanced LoRA techniques                                      │
+│  ├─ [ ] Contribute to open source projects                                   │
+│  └─ [ ] Build personal AI assistant                                          │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+```
+
+---
+
+## 📡 **TRANSMISSION ENDS**
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="33%">
-  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="60" height="60"/>
-  <br><strong>LLM Mastery</strong><br>
-  <sub>Fine-tuning & LoRA</sub>
-</td>
-<td align="center" width="33%">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="60" height="60"/>
-  <br><strong>Backend Excellence</strong><br>
-  <sub>Scalable Architecture</sub>
-</td>
-<td align="center" width="33%">
-  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="60" height="60"/>
-  <br><strong>Innovation Labs</strong><br>
-  <sub>Cutting-edge Solutions</sub>
-</td>
-</tr>
-</table>
+```
+    ╔═══════════════════════════════════════════════════════════╗
+    ║  "In the vast digital cosmos, we are all just bits and   ║
+    ║   bytes seeking meaning through elegant algorithms."      ║
+    ║                                                           ║
+    ║                  - Dipesh Regmi, 2024                    ║
+    ╚═══════════════════════════════════════════════════════════╝
+```
+
+```
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣶⣶⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⠿⠿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+```
+
+**Ready to collaborate? Let's build something extraordinary.**
 
 </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="500" height="4" alt="Animated Line"/>
-</div>
+---
 
-<div align="center">
-
-### 💫 **"Code is poetry written in logic"** 💫
-
-<img src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2848-41c2-998f-c5d2322d73a0.gif" width="300" alt="Thank You Animation"/>
-
-**Ready to build something extraordinary together?**
-
-</div>
+```
+EOF - End of File | Thank you for visiting my digital domain
+```
