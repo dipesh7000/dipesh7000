@@ -1,151 +1,298 @@
-<!-- Animated Background Elements -->
-<div align="center">
-  <svg width="0" height="0" style="position: absolute;">
-    <defs>
-      <filter id="goo">
-        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-      </filter>
-    </defs>
-  </svg>
-  <div style="position: absolute; width: 100%; height: 100%; filter: url(#goo); pointer-events: none;">
-    <div style="position: absolute; width: 50px; height: 50px; background: #ff6b6b; border-radius: 50%; top: 20%; left: 10%; animation: float 8s infinite;"></div>
-    <div style="position: absolute; width: 40px; height: 40px; background: #4ecdc4; border-radius: 50%; top: 60%; right: 15%; animation: float 6s infinite 2s;"></div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Main Container -->
-<div align="center" style="position: relative; padding: 3rem; overflow: hidden;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dipesh Regmi - Animated Profile</title>
   <style>
-    @keyframes hologram {
-      0% { transform: rotateX(0deg) rotateY(0deg); }
-      25% { transform: rotateX(5deg) rotateY(5deg); }
-      50% { transform: rotateX(-5deg) rotateY(-5deg); }
-      75% { transform: rotateX(3deg) rotateY(-3deg); }
-      100% { transform: rotateX(0deg) rotateY(0deg); }
+    /* Root variables for easy customization */
+    :root {
+      --primary: #2196f3;
+      --secondary: #ffc107;
+      --accent: #e91e63;
+      --bg-dark: #0d1117;
+      --text-light: #c9d1d9;
     }
-    @keyframes chromatic {
-      0% { text-shadow: 3px 0px 0px cyan, -3px 0px 0px magenta; }
-      50% { text-shadow: 5px 2px 0px cyan, -5px -2px 0px magenta; }
-      100% { text-shadow: 3px 0px 0px cyan, -3px 0px 0px magenta; }
+
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    .hover-3d { transition: transform 0.3s; }
-    .hover-3d:hover { transform: perspective(1000px) rotateX(5deg) rotateY(5deg); }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-light);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+    }
+
+    a::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: var(--secondary);
+      bottom: 0;
+      left: -100%;
+      transition: left 0.3s ease;
+    }
+
+    a:hover::after {
+      left: 0;
+    }
+
+    header {
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Animated gradient background */
+    header::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg,
+          var(--primary), var(--secondary), var(--accent), var(--primary));
+      background-size: 600% 600%;
+      animation: gradientShift 20s ease infinite;
+      z-index: -1;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      animation: fadeInDown 1s ease both;
+    }
+
+    h3 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      animation: fadeInUp 1s ease both;
+    }
+
+    @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Profile badge container */
+    .badge {
+      margin: 20px auto;
+      width: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      animation: rotateBadge 10s linear infinite;
+    }
+
+    .badge img {
+      width: 100%;
+      display: block;
+    }
+
+    @keyframes rotateBadge {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    section h2 {
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    .card-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #161b22;
+      border-radius: 12px;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -50%;
+      width: 200%; height: 200%;
+      background: radial-gradient(circle, rgba(33,150,243,0.2) 20%, transparent 20%);
+      background-size: 50px 50px;
+      animation: pulse 4s linear infinite;
+      z-index: 0;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(0.8); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(0.8); }
+    }
+
+    .card-content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+
+    .card img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+    }
+
+    /* Marquee style for "Connect with me" */
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      animation: marqueeAnim 15s linear infinite;
+    }
+
+    .marquee a {
+      display: inline-block;
+      margin: 0 30px;
+      animation: linkPop 1s ease infinite;
+    }
+
+    @keyframes marqueeAnim {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    @keyframes linkPop {
+      0%,100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
   </style>
+</head>
 
-  <!-- Floating Avatar -->
-  <div style="position: relative; animation: float 4s ease-in-out infinite;">
-    <div style="width: 120px; height: 120px; background: linear-gradient(45deg, #ff6b6b, #4ecdc4); border-radius: 50%; position: relative;">
-      <div style="position: absolute; width: 100%; height: 100%; border: 2px solid white; border-radius: 50%; animation: hologram 8s infinite;"></div>
-      <div style="position: absolute; width: 100%; height: 100%; border: 2px solid rgba(255,255,255,0.3); border-radius: 50%; animation: hologram 6s infinite reverse;"></div>
+<body>
+
+  <header>
+    <div class="badge">
+      <img src="https://komarev.com/ghpvc/?username=dipesh7002&color=blue" alt="Profile views" />
     </div>
-  </div>
+    <h1>👋 Hi, I’m <strong>Dipesh Regmi</strong></h1>
+    <h3>A passionate Computer Engineer with a foundation in scripting, automation, and backend development.</h3>
+  </header>
 
-  <!-- Name with Chromatic Effect -->
-  <h1 style="font-family: 'Courier New', monospace; margin: 1rem 0; animation: chromatic 4s infinite;">
-    <span style="background: linear-gradient(45deg, #ff6b6b, #4ecdc4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-      DIPESH REGMI
-    </span>
-  </h1>
+  <div class="content">
 
-  <!-- Animated Terminal Effect -->
-  <div style="background: #1a1a1a; padding: 1.5rem; border-radius: 10px; text-align: left; width: 70%; margin: 2rem auto; position: relative;">
-    <div style="position: absolute; top: 0; left: 0; right: 0; height: 30px; background: #2d2d2d; border-radius: 10px 10px 0 0; display: flex; align-items: center; padding: 0 1rem;">
-      <div style="display: flex; gap: 0.5rem;">
-        <div style="width: 12px; height: 12px; background: #ff5f56; border-radius: 50%;"></div>
-        <div style="width: 12px; height: 12px; background: #ffbd2e; border-radius: 50%;"></div>
-        <div style="width: 12px; height: 12px; background: #27c93f; border-radius: 50%;"></div>
-      </div>
-    </div>
-    <div style="margin-top: 2.5rem; color: #00ff00; font-family: 'Courier New', monospace;">
-      <span style="animation: blink 1s infinite;">▋</span> Building intelligent solutions with passion
-    </div>
-  </div>
-
-  <!-- Holographic Cards Grid -->
-  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin: 3rem 0; width: 80%;">
-    <!-- Project Card -->
-    <div class="hover-3d" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
-      <h3 style="margin: 0 0 1rem; color: #4ecdc4;">🚀 Active Project</h3>
-      <div style="position: relative;">
-        <div style="position: absolute; width: 100%; height: 100%; border: 1px solid rgba(78,205,196,0.3); border-radius: 10px; top: 5px; left: 5px;"></div>
-        <div style="background: #2d2d2d; padding: 1rem; border-radius: 10px;">
-          <h4 style="margin: 0; color: #ff6b6b;">AHelp Platform</h4>
-          <p style="color: #a0a0a0; font-size: 0.9rem;">AI-powered academic collaboration system</p>
-          <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
-            <div style="width: 10px; height: 10px; background: #4ecdc4; border-radius: 50%;"></div>
-            <div style="width: 10px; height: 10px; background: #ff6b6b; border-radius: 50%;"></div>
-            <div style="width: 10px; height: 10px; background: #45b649; border-radius: 50%;"></div>
+    <section>
+      <h2>🔭 Current Project</h2>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-content">
+            <img src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" />
+            <p><strong><a href="https://github.com/dipesh7002/AHelp" target="_blank">AHelp</a></strong></p>
+            <p>Matching service providers with students seeking thesis and dissertation help.</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Skills Card -->
-    <div class="hover-3d" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
-      <h3 style="margin: 0 0 1rem; color: #ff6b6b;">🛠 Core Arsenal</h3>
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
-        <div style="text-align: center;">
-          <div style="width: 50px; height: 50px; background: #2d2d2d; border-radius: 10px; margin: 0 auto; display: grid; place-items: center;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" style="filter: drop-shadow(0 0 5px #4ecdc4);"/>
+    <section>
+      <h2>🌱 Learning</h2>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-content">
+            <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" />
+            <p>LoRA Fine-tuning</p>
           </div>
-          <p style="margin: 0.5rem 0 0; font-size: 0.8rem;">Python</p>
         </div>
-        <!-- Add more skill items -->
+        <div class="card">
+          <div class="card-content">
+            <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/prompt.svg" alt="Prompt Engineering" />
+            <p>Prompt Engineering</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- Animated Connection Lines -->
-  <div style="position: relative; height: 100px; margin: 2rem 0;">
-    <div style="position: absolute; height: 2px; background: linear-gradient(90deg, #ff6b6b, #4ecdc4); width: 100%; top: 50%; animation: lineFlow 3s infinite;">
-      <div style="position: absolute; width: 20px; height: 20px; background: #4ecdc4; border-radius: 50%; right: -10px; top: -9px; animation: pulse 1.5s infinite;"></div>
-    </div>
-  </div>
+    <section>
+      <h2>📫 Contact</h2>
+      <p>✉️ <code>077bct027.dipesh@pcampus.edu.np</code></p>
+    </section>
 
-  <!-- Neural Network Animation -->
-  <div style="position: relative; height: 150px; margin: 3rem 0;">
-    <div style="position: absolute; width: 100%; height: 100%; display: flex; justify-content: space-between;">
-      <div style="width: 30%; position: relative;">
-        <!-- Nodes and connections -->
-        <div style="position: absolute; width: 15px; height: 15px; background: #ff6b6b; border-radius: 50%; top: 20%; left: 30%; animation: nodePulse 2s infinite;"></div>
-        <div style="position: absolute; width: 15px; height: 15px; background: #4ecdc4; border-radius: 50%; top: 50%; left: 60%; animation: nodePulse 2s infinite 0.5s;"></div>
-        <!-- Add more nodes and animated connection lines -->
+    <section>
+      <h2>🔗 Connect with me</h2>
+      <div class="marquee">
+        <a href="https://linkedin.com/in/dipesh-regmi-941bab32b" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="30" height="30" alt="LinkedIn" /></a>
+        <a href="https://leetcode.com/user1063ha" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="30" height="30" alt="LeetCode" /></a>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- Animated Contact Button -->
-  <div style="position: relative; margin: 2rem 0;">
-    <a href="mailto:077bct027.dipesh@pcampus.edu.np" style="text-decoration: none; position: relative;">
-      <div style="padding: 1rem 2rem; background: linear-gradient(45deg, #ff6b6b, #4ecdc4); border-radius: 50px; color: white; font-weight: bold; position: relative; overflow: hidden;">
-        <div style="position: absolute; width: 100%; height: 100%; background: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.2) 50%); background-size: 400% 400%; animation: shine 3s infinite;"></div>
-        <span style="position: relative;">📧 Let's Connect!</span>
+    <section>
+      <h2>📝 Languages</h2>
+      <div class="card-list">
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" /><p>C</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" /><p>C++</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" /><p>Python</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" /><p>JavaScript</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" /><p>HTML5</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" /><p>CSS3</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin" /><p>Kotlin</p></div></div>
       </div>
-    </a>
-  </div>
-</div>
+    </section>
 
-<style>
-  @keyframes nodePulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
-  }
-  @keyframes lineFlow {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
-  }
-  @keyframes shine {
-    0% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  @keyframes pulse {
-    0% { transform: scale(1); opacity: 1; }
-    100% { transform: scale(2); opacity: 0; }
-  }
-  @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-  }
-</style>
+    <section>
+      <h2>🛠️ Tools & Technologies</h2>
+      <div class="card-list">
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="Django" /><p>Django</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="Elasticsearch" /><p>Elasticsearch</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" /><p>Git</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" /><p>Linux</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" /><p>PostgreSQL</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" /><p>MySQL</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" /><p>MongoDB</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/couchdb/couchdb-original.svg" alt="CouchDB" /><p>CouchDB</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="MATLAB" /><p>MATLAB</p></div></div>
+        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" /><p>Pandas</p></div></div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
