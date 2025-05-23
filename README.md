@@ -1,375 +1,151 @@
-```ascii
-╔══════════════════════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                                  ║
-║    ██████╗ ██╗██████╗ ███████╗███████╗██╗  ██╗    ██████╗ ███████╗ ██████╗ ███╗   ███╗██╗       ║
-║    ██╔══██╗██║██╔══██╗██╔════╝██╔════╝██║  ██║    ██╔══██╗██╔════╝██╔════╝ ████╗ ████║██║       ║
-║    ██║  ██║██║██████╔╝█████╗  ███████╗███████║    ██████╔╝█████╗  ██║  ███╗██╔████╔██║██║       ║
-║    ██║  ██║██║██╔═══╝ ██╔══╝  ╚════██║██╔══██║    ██╔══██╗██╔══╝  ██║   ██║██║╚██╔╝██║██║       ║
-║    ██████╔╝██║██║     ███████╗███████║██║  ██║    ██║  ██║███████╗╚██████╔╝██║ ╚═╝ ██║██║       ║
-║    ╚═════╝ ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝       ║
-║                                                                                                  ║
-║                              🌐 Computer Engineer from Nepal 🇳🇵                              ║
-║                                                                                                  ║
-╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
-```
-
+<!-- Animated Background Elements -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=dipesh7002&color=dc143c&style=plastic&label=VISITORS" alt="Profile Views"/>
+  <svg width="0" height="0" style="position: absolute;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+      </filter>
+    </defs>
+  </svg>
+  <div style="position: absolute; width: 100%; height: 100%; filter: url(#goo); pointer-events: none;">
+    <div style="position: absolute; width: 50px; height: 50px; background: #ff6b6b; border-radius: 50%; top: 20%; left: 10%; animation: float 8s infinite;"></div>
+    <div style="position: absolute; width: 40px; height: 40px; background: #4ecdc4; border-radius: 50%; top: 60%; right: 15%; animation: float 6s infinite 2s;"></div>
+  </div>
 </div>
 
-<br>
+<!-- Main Container -->
+<div align="center" style="position: relative; padding: 3rem; overflow: hidden;">
+  <style>
+    @keyframes hologram {
+      0% { transform: rotateX(0deg) rotateY(0deg); }
+      25% { transform: rotateX(5deg) rotateY(5deg); }
+      50% { transform: rotateX(-5deg) rotateY(-5deg); }
+      75% { transform: rotateX(3deg) rotateY(-3deg); }
+      100% { transform: rotateX(0deg) rotateY(0deg); }
+    }
+    @keyframes chromatic {
+      0% { text-shadow: 3px 0px 0px cyan, -3px 0px 0px magenta; }
+      50% { text-shadow: 5px 2px 0px cyan, -5px -2px 0px magenta; }
+      100% { text-shadow: 3px 0px 0px cyan, -3px 0px 0px magenta; }
+    }
+    .hover-3d { transition: transform 0.3s; }
+    .hover-3d:hover { transform: perspective(1000px) rotateX(5deg) rotateY(5deg); }
+  </style>
 
-```
-     ┌─────────────────────────────────────────────────────────────────────┐
-     │                    🧬 GENETIC CODE BREAKDOWN                        │
-     ├─────────────────────────────────────────────────────────────────────┤
-     │                                                                     │
-     │  Species: Homo Codius                                              │
-     │  Habitat: Terminal Environments, IDE Forests                       │
-     │  Diet: Coffee, Complex Algorithms, Stack Overflow                  │
-     │  Behavior: Nocturnal Coding Patterns                               │
-     │                                                                     │
-     │  Primary Mutations:                                                 │
-     │  ├─ Backend Development Gene (Dominant)                             │
-     │  ├─ AI Curiosity Chromosome (Highly Active)                        │
-     │  ├─ Automation Instinct (Evolved)                                   │
-     │  └─ Problem-Solving Enzyme (Overproduced)                          │
-     │                                                                     │
-     │  Current Evolution: LLM Fine-tuning Adaptation                     │
-     │  Status: Actively Mutating                                          │
-     │                                                                     │
-     └─────────────────────────────────────────────────────────────────────┘
-```
+  <!-- Floating Avatar -->
+  <div style="position: relative; animation: float 4s ease-in-out infinite;">
+    <div style="width: 120px; height: 120px; background: linear-gradient(45deg, #ff6b6b, #4ecdc4); border-radius: 50%; position: relative;">
+      <div style="position: absolute; width: 100%; height: 100%; border: 2px solid white; border-radius: 50%; animation: hologram 8s infinite;"></div>
+      <div style="position: absolute; width: 100%; height: 100%; border: 2px solid rgba(255,255,255,0.3); border-radius: 50%; animation: hologram 6s infinite reverse;"></div>
+    </div>
+  </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" height="320" alt="Your Requested GIF"/>
+  <!-- Name with Chromatic Effect -->
+  <h1 style="font-family: 'Courier New', monospace; margin: 1rem 0; animation: chromatic 4s infinite;">
+    <span style="background: linear-gradient(45deg, #ff6b6b, #4ecdc4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      DIPESH REGMI
+    </span>
+  </h1>
+
+  <!-- Animated Terminal Effect -->
+  <div style="background: #1a1a1a; padding: 1.5rem; border-radius: 10px; text-align: left; width: 70%; margin: 2rem auto; position: relative;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 30px; background: #2d2d2d; border-radius: 10px 10px 0 0; display: flex; align-items: center; padding: 0 1rem;">
+      <div style="display: flex; gap: 0.5rem;">
+        <div style="width: 12px; height: 12px; background: #ff5f56; border-radius: 50%;"></div>
+        <div style="width: 12px; height: 12px; background: #ffbd2e; border-radius: 50%;"></div>
+        <div style="width: 12px; height: 12px; background: #27c93f; border-radius: 50%;"></div>
+      </div>
+    </div>
+    <div style="margin-top: 2.5rem; color: #00ff00; font-family: 'Courier New', monospace;">
+      <span style="animation: blink 1s infinite;">▋</span> Building intelligent solutions with passion
+    </div>
+  </div>
+
+  <!-- Holographic Cards Grid -->
+  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin: 3rem 0; width: 80%;">
+    <!-- Project Card -->
+    <div class="hover-3d" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
+      <h3 style="margin: 0 0 1rem; color: #4ecdc4;">🚀 Active Project</h3>
+      <div style="position: relative;">
+        <div style="position: absolute; width: 100%; height: 100%; border: 1px solid rgba(78,205,196,0.3); border-radius: 10px; top: 5px; left: 5px;"></div>
+        <div style="background: #2d2d2d; padding: 1rem; border-radius: 10px;">
+          <h4 style="margin: 0; color: #ff6b6b;">AHelp Platform</h4>
+          <p style="color: #a0a0a0; font-size: 0.9rem;">AI-powered academic collaboration system</p>
+          <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+            <div style="width: 10px; height: 10px; background: #4ecdc4; border-radius: 50%;"></div>
+            <div style="width: 10px; height: 10px; background: #ff6b6b; border-radius: 50%;"></div>
+            <div style="width: 10px; height: 10px; background: #45b649; border-radius: 50%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Card -->
+    <div class="hover-3d" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
+      <h3 style="margin: 0 0 1rem; color: #ff6b6b;">🛠 Core Arsenal</h3>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+        <div style="text-align: center;">
+          <div style="width: 50px; height: 50px; background: #2d2d2d; border-radius: 10px; margin: 0 auto; display: grid; place-items: center;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" style="filter: drop-shadow(0 0 5px #4ecdc4);"/>
+          </div>
+          <p style="margin: 0.5rem 0 0; font-size: 0.8rem;">Python</p>
+        </div>
+        <!-- Add more skill items -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Animated Connection Lines -->
+  <div style="position: relative; height: 100px; margin: 2rem 0;">
+    <div style="position: absolute; height: 2px; background: linear-gradient(90deg, #ff6b6b, #4ecdc4); width: 100%; top: 50%; animation: lineFlow 3s infinite;">
+      <div style="position: absolute; width: 20px; height: 20px; background: #4ecdc4; border-radius: 50%; right: -10px; top: -9px; animation: pulse 1.5s infinite;"></div>
+    </div>
+  </div>
+
+  <!-- Neural Network Animation -->
+  <div style="position: relative; height: 150px; margin: 3rem 0;">
+    <div style="position: absolute; width: 100%; height: 100%; display: flex; justify-content: space-between;">
+      <div style="width: 30%; position: relative;">
+        <!-- Nodes and connections -->
+        <div style="position: absolute; width: 15px; height: 15px; background: #ff6b6b; border-radius: 50%; top: 20%; left: 30%; animation: nodePulse 2s infinite;"></div>
+        <div style="position: absolute; width: 15px; height: 15px; background: #4ecdc4; border-radius: 50%; top: 50%; left: 60%; animation: nodePulse 2s infinite 0.5s;"></div>
+        <!-- Add more nodes and animated connection lines -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Animated Contact Button -->
+  <div style="position: relative; margin: 2rem 0;">
+    <a href="mailto:077bct027.dipesh@pcampus.edu.np" style="text-decoration: none; position: relative;">
+      <div style="padding: 1rem 2rem; background: linear-gradient(45deg, #ff6b6b, #4ecdc4); border-radius: 50px; color: white; font-weight: bold; position: relative; overflow: hidden;">
+        <div style="position: absolute; width: 100%; height: 100%; background: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.2) 50%); background-size: 400% 400%; animation: shine 3s infinite;"></div>
+        <span style="position: relative;">📧 Let's Connect!</span>
+      </div>
+    </a>
+  </div>
 </div>
 
----
-
-## 🎯 **CURRENT MISSION STATUS**
-
-```
-OPERATION: AHELP
-├─ Classification: TOP SECRET
-├─ Mission Type: Academic Intelligence Network
-├─ Objective: Connect knowledge seekers with academic operatives
-├─ Progress: IN DEVELOPMENT
-├─ Threat Level: MINIMAL
-└─ Success Probability: HIGH
-
-AGENT TRAINING MODULES:
-├─ LLM Interrogation Techniques (LoRA)
-├─ Prompt Engineering Psychology  
-├─ Hugging Face Infiltration
-└─ Neural Network Manipulation
-```
-
----
-
-## 🧪 **LABORATORY EQUIPMENT**
-
-<div align="center">
-
-### 🔬 **PRIMARY SPECIMENS**
-```
-C/C++ ████████████████████████ 95%    Python ██████████████████████ 90%
-JavaScript ███████████████████ 85%    Kotlin ████████████████ 70%
-```
-
-### ⚗️ **RESEARCH TOOLS**
-```
-Django Framework    ████████████████████████ 100%
-PostgreSQL Cultures ██████████████████████   95%
-MongoDB Colonies    ███████████████████      85%
-CouchDB Specimens   ████████████████         70%
-MySQL Samples       ██████████████████████   90%
-```
-
-### 🛠️ **APPARATUS**
-```
-Git Version Control      ████████████████████████ 100%
-Linux Operating System  ██████████████████████   95%
-Elasticsearch Engine     ████████████████         70%
-MATLAB Computational     ███████████████████      85%
-Pandas Data Processing   ██████████████████████   90%
-```
-
-</div>
-
----
-
-## 🕸️ **WEB OF CONNECTIONS**
-
-<div align="center">
-
-```
-                    🌐 DIGITAL PRESENCE NETWORK
-                           
-                              [YOU]
-                               |
-                  ┌────────────┼────────────┐
-                  │            │            │
-            [LINKEDIN]    [LEETCODE]    [EMAIL]
-                  │            │            │
-        Professional   Algorithmic    Direct
-         Networking     Combat       Communication
-                  │            │            │
-            Business     Problem      Personal
-             Intel      Solving       Queries
-                       Training
-```
-
-<a href="https://linkedin.com/in/dipesh-regmi-941bab32b" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-FF6B6B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://leetcode.com/user1063ha" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-4ECDC4?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
-</a>
-<a href="mailto:077bct027.dipesh@pcampus.edu.np">
-  <img src="https://img.shields.io/badge/Email-45B7D1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-</div>
-
----
-
-## 🎭 **ALTERNATE PERSONAS**
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-```
-    🤖
-  DIPESH.AI
-```
-**THE LEARNER**
-*Fine-tuning models*
-*Prompt engineering*
-*Neural networks*
-
-</td>
-<td align="center" width="25%">
-
-```
-    ⚙️
-  DIPESH.SYS
-```
-**THE BUILDER**
-*Backend architecture*
-*System design*
-*API development*
-
-</td>
-<td align="center" width="25%">
-
-```
-    🔍
-  DIPESH.DB
-```
-**THE ANALYZER**
-*Data modeling*
-*Query optimization*
-*Database design*
-
-</td>
-<td align="center" width="25%">
-
-```
-    🚀
-  DIPESH.DEV
-```
-**THE INNOVATOR**
-*Problem solving*
-*Automation*
-*Creative solutions*
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 📊 **PERFORMANCE METRICS**
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        SKILL PROFICIENCY RADAR                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│              Backend Development    ████████████████████ 95%               │
-│              Database Management    ██████████████████   85%               │
-│              Problem Solving        ████████████████████ 96%               │
-│              System Architecture    ████████████████     75%               │
-│              AI/ML Understanding    ███████████████      70%               │
-│              Code Optimization      ██████████████████   80%               │
-│              API Design             ████████████████████ 90%               │
-│              Linux Administration   ████████████████     75%               │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🏆 **ACHIEVEMENT UNLOCKED**
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════════════════════════╗
-║                                                                               ║
-║    🎯 MISSION: AHELP - ACADEMIC INTELLIGENCE NETWORK                         ║
-║                                                                               ║
-║    📋 BRIEFING:                                                               ║
-║    Revolutionary platform connecting students with academic specialists        ║
-║    through intelligent matching algorithms and seamless communication         ║
-║                                                                               ║
-║    🔧 TECHNOLOGIES DEPLOYED:                                                   ║
-║    ├─ Advanced Matching Algorithms                                            ║
-║    ├─ Real-time Communication Systems                                         ║
-║    ├─ Secure User Authentication                                              ║
-║    └─ Intelligent Recommendation Engine                                       ║
-║                                                                               ║
-║    📈 IMPACT:                                                                  ║
-║    Bridging the knowledge gap in academic assistance                          ║
-║                                                                               ║
-║    🔗 ACCESS POINT: github.com/dipesh7002/AHelp                              ║
-║                                                                               ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-## 🎨 **CREATIVE WORKSPACE**
-
-```
-                    📁 /home/dipesh/projects/
-                    ├── 🔥 ahelp/
-                    │   ├── backend/
-                    │   │   ├── django_app/
-                    │   │   ├── api/
-                    │   │   └── database/
-                    │   ├── frontend/
-                    │   └── algorithms/
-                    ├── 🧠 ai_experiments/
-                    │   ├── llm_finetuning/
-                    │   ├── prompt_engineering/
-                    │   └── model_training/
-                    ├── 🛠️ automation_scripts/
-                    │   ├── data_processing/
-                    │   └── system_monitoring/
-                    └── 📚 learning_sandbox/
-                        ├── tutorials/
-                        ├── experiments/
-                        └── notes/
-```
-
----
-
-## 💭 **THOUGHT PROCESSES**
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        NEURAL ACTIVITY MONITOR                         │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                         │
-│  💡 Current Thoughts:                                                   │
-│  ├─ How can we make LLMs more efficient?                               │
-│  ├─ What's the optimal architecture for AHelp?                         │
-│  ├─ How to improve database query performance?                          │
-│  └─ Which automation can save time today?                              │
-│                                                                         │
-│  🔄 Background Processes:                                               │
-│  ├─ Monitoring tech trends                                              │
-│  ├─ Optimizing existing code                                            │
-│  ├─ Planning next learning modules                                      │
-│  └─ Dreaming in algorithms                                              │
-│                                                                         │
-│  ⚡ Active Synapses:                                                     │
-│  Django ██████████████████████████████ 100%                           │
-│  Python ████████████████████████████   95%                            │
-│  AI/ML  ███████████████████████        85%                            │
-│  PostgreSQL ████████████████████████   90%                            │
-│                                                                         │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-## 🌟 **SYSTEM STATUS**
-
-```
-╭──────────────────────────────────────────────────────────────────────────────╮
-│                            DIPESH REGMI v2024.5                             │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  🔋 Energy Level:        ████████████████████████████████ 95%               │
-│  🧠 Learning Capacity:   ████████████████████████████████ 100%              │
-│  💻 Coding Efficiency:   ██████████████████████████████   88%               │
-│  🚀 Innovation Drive:    ████████████████████████████████ 99%               │
-│  🤝 Collaboration Mode:  ████████████████████████████████ 100%              │
-│                                                                              │
-│  📊 Recent Activities:                                                       │
-│  ├─ [2024-05-20] AHelp backend optimization                                 │
-│  ├─ [2024-05-18] LoRA fine-tuning experiments                               │
-│  ├─ [2024-05-15] Database performance tuning                                │
-│  └─ [2024-05-12] Prompt engineering research                                │
-│                                                                              │
-│  🎯 Next Objectives:                                                         │
-│  ├─ [ ] Complete AHelp MVP                                                   │
-│  ├─ [ ] Master advanced LoRA techniques                                      │
-│  ├─ [ ] Contribute to open source projects                                   │
-│  └─ [ ] Build personal AI assistant                                          │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
-```
-
----
-
-## 📡 **TRANSMISSION ENDS**
-
-<div align="center">
-
-```
-    ╔═══════════════════════════════════════════════════════════╗
-    ║  "In the vast digital cosmos, we are all just bits and   ║
-    ║   bytes seeking meaning through elegant algorithms."      ║
-    ║                                                           ║
-    ║                  - Dipesh Regmi, 2024                    ║
-    ╚═══════════════════════════════════════════════════════════╝
-```
-
-```
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣶⣶⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⠿⠿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-```
-
-**Ready to collaborate? Let's build something extraordinary.**
-
-</div>
-
----
-
-```
-EOF - End of File | Thank you for visiting my digital domain
-```
+<style>
+  @keyframes nodePulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  @keyframes lineFlow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+  @keyframes shine {
+    0% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(2); opacity: 0; }
+  }
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+</style>
