@@ -1,298 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
+<div align="center">
+  <!-- Animated Wave Header -->
+  <svg width="100%" height="200px" viewBox="0 0 100 20" preserveAspectRatio="none" style="margin-bottom:-5px;">
+    <path d="M0,10 C30,0 70,20 100,10 L100,20 L0,20 Z" fill="#2196f3">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite"
+        values="M0,10 C30,0 70,20 100,10 L100,20 L0,20 Z;
+                M0,10 C20,20 80,0 100,10 L100,20 L0,20 Z;
+                M0,10 C30,0 70,20 100,10 L100,20 L0,20 Z" />
+    </path>
+  </svg>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dipesh Regmi - Animated Profile</title>
-  <style>
-    /* Root variables for easy customization */
-    :root {
-      --primary: #2196f3;
-      --secondary: #ffc107;
-      --accent: #e91e63;
-      --bg-dark: #0d1117;
-      --text-light: #c9d1d9;
-    }
+  <!-- Profile Image with Pulse -->
+  <img src="https://avatars.githubusercontent.com/u/your-avatar-id?v=4" alt="Dipesh Regmi" width="150" height="150"
+       style="border-radius:50%; box-shadow: 0 0 20px rgba(33,150,243,0.6); animation: pulse 3s infinite;" />
 
-    /* Basic reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  <!-- Typewriter Name -->
+  <h1>
+    <a href="https://your-animated-gif-hosting.com/typewriter.gif">
+      <img src="https://your-animated-gif-hosting.com/typewriter.gif" alt="Typewriter Effect: Dipesh Regmi" />
+    </a>
+  </h1>
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: var(--bg-dark);
-      color: var(--text-light);
-      overflow-x: hidden;
-      line-height: 1.6;
-    }
+  <p align="center">_A passionate Computer Engineer skilled in scripting, automation, and backend development._</p>
 
-    a {
-      color: var(--primary);
-      text-decoration: none;
-      position: relative;
-      overflow: hidden;
-    }
+  <!-- Animated Profile Stats -->
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=dipesh7002&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=dipesh7002&theme=radical" alt="Streak Stats" />
+  </p>
+</div>
 
-    a::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      background: var(--secondary);
-      bottom: 0;
-      left: -100%;
-      transition: left 0.3s ease;
-    }
+---
 
-    a:hover::after {
-      left: 0;
-    }
+## 🔭 Current Project
 
-    header {
-      padding: 100px 20px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
+<div align="center">
+  <img src="https://github.githubassets.com/favicons/favicon.svg" width="40"/>
+  **[AHelp](https://github.com/dipesh7002/AHelp)**
+  <p>🔗 Matching thesis/dissertation students with expert service providers.</p>
+</div>
 
-    /* Animated gradient background */
-    header::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: linear-gradient(45deg,
-          var(--primary), var(--secondary), var(--accent), var(--primary));
-      background-size: 600% 600%;
-      animation: gradientShift 20s ease infinite;
-      z-index: -1;
-    }
+---
 
-    @keyframes gradientShift {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
+## 🌱 Learning Journey
 
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
-      animation: fadeInDown 1s ease both;
-    }
+<div align="center">
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="80" style="margin:0 15px;" />
+  <img src="https://media.giphy.com/media/l41m6TtFcuyJt3H9i/giphy.gif" width="80" style="margin:0 15px;" />
+  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="80" style="margin:0 15px;" />
+  <p>— LoRA Fine-tuning • Prompt Engineering • Hugging Face Model Magic —</p>
+</div>
 
-    h3 {
-      font-size: 1.5em;
-      margin-bottom: 0.5em;
-      animation: fadeInUp 1s ease both;
-    }
+---
 
-    @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+## 🛠️ Languages & Tools
 
-    /* Profile badge container */
-    .badge {
-      margin: 20px auto;
-      width: 120px;
-      border-radius: 50%;
-      overflow: hidden;
-      animation: rotateBadge 10s linear infinite;
-    }
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40"/><p>C</p></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40"/><p>C++</p></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/><p>Python</p></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/><p>JavaScript</p></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40"/><p>HTML5</p></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40"/><p>CSS3</p></td>
+      <td align="center"><img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" width="40"/><p>Kotlin</p></td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="40"/><p>MATLAB</p></td>
+    </tr>
+  </table>
+</div>
 
-    .badge img {
-      width: 100%;
-      display: block;
-    }
+---
 
-    @keyframes rotateBadge {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
+## 💻 Tools & Frameworks
 
-    .content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
+<div align="center">
+  <!-- Animated badges -->
+  <a href="https://www.djangoproject.com/">
+    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white&animation=spin" alt="Django Badge"/>
+  </a>
+  <a href="https://www.elastic.co/elasticsearch/">
+    <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elastic&logoColor=white&animation=spin" alt="Elasticsearch Badge"/>
+  </a>
+  <a href="https://git-scm.com/">
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&animation=spin" alt="Git Badge"/>
+  </a>
+  <a href="https://www.linux.org/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&animation=spin" alt="Linux Badge"/>
+  </a>
+  <a href="https://www.postgresql.org/">
+    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white&animation=spin" alt="PostgreSQL Badge"/>
+  </a>
+</div>
 
-    section {
-      margin-bottom: 60px;
-    }
+---
 
-    section h2 {
-      border-left: 4px solid var(--accent);
-      padding-left: 10px;
-      margin-bottom: 20px;
-      font-size: 2em;
-    }
+## 📫 Get in Touch
 
-    .card-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 20px;
-    }
+<div align="center" style="animation: fadeIn 4s;">
+  ✉️ <code>077bct027.dipesh@pcampus.edu.np</code> | 
+  <a href="https://linkedin.com/in/dipesh-regmi-941bab32b">LinkedIn</a> | 
+  <a href="https://leetcode.com/user1063ha">LeetCode</a>
+</div>
 
-    .card {
-      background: #161b22;
-      border-radius: 12px;
-      padding: 20px;
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
+---
 
-    .card:hover {
-      transform: translateY(-10px);
-    }
+## 🎉 Thanks for Visiting!
 
-    .card::before {
-      content: '';
-      position: absolute;
-      top: -50%; left: -50%;
-      width: 200%; height: 200%;
-      background: radial-gradient(circle, rgba(33,150,243,0.2) 20%, transparent 20%);
-      background-size: 50px 50px;
-      animation: pulse 4s linear infinite;
-      z-index: 0;
-    }
+<p align="center">
+  <img src="https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif" width="150"/>
+</p>
 
-    @keyframes pulse {
-      0% { transform: scale(0.8); }
-      50% { transform: scale(1.2); }
-      100% { transform: scale(0.8); }
-    }
+<!-- Keyframe Animation Styles (GitHub strips <style> but badges & SVG handle animation) -->
 
-    .card-content {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-    }
-
-    .card img {
-      width: 40px;
-      height: 40px;
-      margin-bottom: 10px;
-    }
-
-    /* Marquee style for "Connect with me" */
-    .marquee {
-      overflow: hidden;
-      white-space: nowrap;
-      box-sizing: border-box;
-      animation: marqueeAnim 15s linear infinite;
-    }
-
-    .marquee a {
-      display: inline-block;
-      margin: 0 30px;
-      animation: linkPop 1s ease infinite;
-    }
-
-    @keyframes marqueeAnim {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
-    }
-
-    @keyframes linkPop {
-      0%,100% { transform: scale(1); }
-      50% { transform: scale(1.2); }
-    }
-  </style>
-</head>
-
-<body>
-
-  <header>
-    <div class="badge">
-      <img src="https://komarev.com/ghpvc/?username=dipesh7002&color=blue" alt="Profile views" />
-    </div>
-    <h1>👋 Hi, I’m <strong>Dipesh Regmi</strong></h1>
-    <h3>A passionate Computer Engineer with a foundation in scripting, automation, and backend development.</h3>
-  </header>
-
-  <div class="content">
-
-    <section>
-      <h2>🔭 Current Project</h2>
-      <div class="card-list">
-        <div class="card">
-          <div class="card-content">
-            <img src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" />
-            <p><strong><a href="https://github.com/dipesh7002/AHelp" target="_blank">AHelp</a></strong></p>
-            <p>Matching service providers with students seeking thesis and dissertation help.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>🌱 Learning</h2>
-      <div class="card-list">
-        <div class="card">
-          <div class="card-content">
-            <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" />
-            <p>LoRA Fine-tuning</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/prompt.svg" alt="Prompt Engineering" />
-            <p>Prompt Engineering</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>📫 Contact</h2>
-      <p>✉️ <code>077bct027.dipesh@pcampus.edu.np</code></p>
-    </section>
-
-    <section>
-      <h2>🔗 Connect with me</h2>
-      <div class="marquee">
-        <a href="https://linkedin.com/in/dipesh-regmi-941bab32b" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="30" height="30" alt="LinkedIn" /></a>
-        <a href="https://leetcode.com/user1063ha" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="30" height="30" alt="LeetCode" /></a>
-      </div>
-    </section>
-
-    <section>
-      <h2>📝 Languages</h2>
-      <div class="card-list">
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" /><p>C</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" /><p>C++</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" /><p>Python</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" /><p>JavaScript</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" /><p>HTML5</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" /><p>CSS3</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin" /><p>Kotlin</p></div></div>
-      </div>
-    </section>
-
-    <section>
-      <h2>🛠️ Tools & Technologies</h2>
-      <div class="card-list">
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="Django" /><p>Django</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="Elasticsearch" /><p>Elasticsearch</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" /><p>Git</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" /><p>Linux</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" /><p>PostgreSQL</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" /><p>MySQL</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" /><p>MongoDB</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/couchdb/couchdb-original.svg" alt="CouchDB" /><p>CouchDB</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="MATLAB" /><p>MATLAB</p></div></div>
-        <div class="card"><div class="card-content"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" /><p>Pandas</p></div></div>
-      </div>
-    </section>
-
-  </div>
-
-</body>
-
-</html>
+<!-- End of README -->
