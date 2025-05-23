@@ -159,8 +159,6 @@ Currently diving deep into:
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" />
 
-<br>t=Inter&size=22&duration=4000&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%99%8F;Let's+build+something+amazing+together+%F0%9F%9A%80;Always+open+to+collaboration+%F0%9F%A4%9D" />
-
 <br>
 
 <i>⭐️ From <a href="https://github.com/dipesh7002">Dipesh Regmi</a></i>
