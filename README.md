@@ -1,6 +1,14 @@
 <div align="center">
-  
+
+<!-- Hero GIF -->
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" height="300" />
+
+<br><br>
+
 <!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=dipesh7002&color=0e75b6&style=flat" alt="Profile views" />
+
+<br><br>
 
 <!-- Animated Header -->
 <h1>
@@ -10,18 +18,20 @@
 
 <!-- Typing Animation Style Subtitle -->
 <h3>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&lines=Computer+Engineer+%7C+Backend+Developer;Passionate+about+AI+%26+Machine+Learning;Building+Solutions+with+Python+%26+Django;Always+learning%2C+always+growing" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=Computer+Engineer+%7C+Backend+Developer;Passionate+about+AI+%26+Machine+Learning;Building+Solutions+with+Python+%26+Django;Always+learning%2C+always+growing" alt="Typing SVG" />
 </h3>
 
 </div>
 
 ---
 
+<div align="center">
+
 ## 🚀 What I'm Up To
 
-<table>
+<table align="center" width="90%">
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 🔭 **Current Focus**
 🎯 **[AHelp](https://github.com/dipesh7002/AHelp)**  
@@ -30,7 +40,7 @@
 **Tech Stack:** `Django` `PostgreSQL` `RESTful APIs`
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 🌱 **Currently Learning**
 🤖 **Fine-tuning Large Language Models**
@@ -42,6 +52,8 @@
 </td>
 </tr>
 </table>
+
+</div>
 
 ---
 
@@ -57,10 +69,11 @@
 
 ---
 
+<div align="center">
+
 ## 💻 Tech Arsenal
 
 ### 🎯 **Programming Languages**
-<div align="center">
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -68,29 +81,26 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 
-</div>
+<br>
 
 ### 🎨 **Web Technologies**
-<div align="center">
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 
-</div>
+<br>
 
 ### 🗄️ **Databases**
-<div align="center">
 
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![CouchDB](https://img.shields.io/badge/CouchDB-E42528?style=for-the-badge&logo=apache-couchdb&logoColor=white)
 
-</div>
+<br>
 
 ### 🛠️ **Tools & Platforms**
-<div align="center">
 
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -102,9 +112,36 @@
 
 ---
 
+## 📊 GitHub Analytics
 
+<div align="center">
+  
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=dipesh7002&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dipesh7002&layout=compact&langs_count=7&theme=tokyonight"/>
+
+</div>
+
+<div align="center">
+  
+[![GitHub Streak](https://streak-stats.demolab.com/?user=dipesh7002&theme=tokyonight)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+<div align="center">
+  
+[![trophy](https://github-profile-trophy.vercel.app/?username=dipesh7002&theme=onedark&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+<div align="center">
 
 ## 💡 Fun Fact
+
 ```python
 class DipeshRegmi:
     def __init__(self):
@@ -121,11 +158,11 @@ me = DipeshRegmi()
 me.say_hi()
 ```
 
----
+<br>
 
-<div align="center">
-  
 ### ⭐ *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+
+<br>
 
 **Thanks for stopping by! Feel free to explore my repositories and don't hesitate to reach out!** 😊
 
