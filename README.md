@@ -1,10 +1,12 @@
 # <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=40&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Dipesh+Regmi;Computer+Engineer;Backend+Developer;AI+Enthusiast" />
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=45&duration=2500&pause=800&color=FF6B35&center=true&vCenter=true&width=700&lines=%F0%9F%91%8B+Hi%2C+I'm+Dipesh+Regmi!;%F0%9F%9A%80+Computer+Engineer;%F0%9F%92%BB+Backend+Developer;%F0%9F%A4%96+AI+Enthusiast" />
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=20&duration=4000&pause=1500&color=7C3AED&center=true&vCenter=true&width=800&lines=Welcome+to+my+GitHub+Profile+%E2%9C%A8;Building+scalable+solutions+with+modern+tech;Passionate+about+AI+and+backend+systems" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=100&lines=%E2%9C%A8+Welcome+to+my+GitHub+Profile+%E2%9C%A8;%F0%9F%8C%9F+Building+scalable+solutions+with+cutting-edge+tech;%F0%9F%94%A5+Transforming+ideas+into+powerful+applications" />
 
 <br>
 
@@ -24,7 +26,7 @@
 
 </div>
 
-<img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
 
 🎓 **Computer Engineering Student** with a passion for technology and innovation
 
@@ -143,9 +145,9 @@ Currently diving deep into:
 
 <div align="center">
 
-## 📈 GitHub Activity
+## <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="35"> GitHub Analytics
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dipesh7002&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dipesh7002&custom_title=Dipesh's%20Contribution%20Graph&bg_color=0D1117&color=7F3FBF&line=7F3FBF&point=7F3FBF&area_color=FFFFFF&title_color=FFFFFF&area=true" alt="GitHub Activity Graph" />
 
 </div>
 
@@ -153,7 +155,11 @@ Currently diving deep into:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=22&duration=4000&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%99%8F;Let's+build+something+amazing+together+%F0%9F%9A%80;Always+open+to+collaboration+%F0%9F%A4%9D" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=30&duration=4000&pause=1500&color=58A6FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=%F0%9F%99%8F+Thanks+for+exploring+my+digital+space!;%F0%9F%A4%9D+Let's+collaborate+and+create+magic;%F0%9F%9A%80+Ready+to+build+the+future+together;%E2%9A%A1+Innovation+starts+with+connection!" />
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" />
+
+<br>t=Inter&size=22&duration=4000&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%99%8F;Let's+build+something+amazing+together+%F0%9F%9A%80;Always+open+to+collaboration+%F0%9F%A4%9D" />
 
 <br>
 
